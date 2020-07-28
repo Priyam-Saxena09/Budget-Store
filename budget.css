@@ -1,0 +1,161 @@
+.container
+{
+    height:260px;
+    width: auto;
+}
+.container img
+{
+    height:260px;
+    width: 1800px;
+    opacity:0.6;
+}
+.container h1
+{
+    position: absolute;
+    left:35%;
+    top:1px;
+    font-size: 25px;
+} 
+.container p
+{
+    position: absolute;
+    left:43%;
+    top:10px;
+    font-size: 40px;
+} 
+.incomecont
+{
+    height:50px;
+    width:410px;
+    background-color:cyan;
+    position: absolute;
+    left:34%;
+    top:110px;
+}
+.incomecont p
+{
+    font-family: cursive;
+    font-size: 20px;
+    position: absolute;
+    left:20px;
+    top: -10px;
+}
+.incomecont b
+{
+    font-family: cursive;
+    font-size: 20px;
+    position: absolute;
+    left:320px;
+    top: 7px;
+}
+.expensecont
+{
+    height:50px;
+    width:410px;
+    background-color:indianred;
+    position: absolute;
+    left:34%;
+    top:190px;
+}
+.expensecont p
+{
+    font-family: cursive;
+    font-size: 20px;
+    position: absolute;
+    left:20px;
+    top: -10px;
+    
+}
+.expensecont b
+{
+    font-family: cursive;
+    font-size: 20px;
+    position: absolute;
+    left:320px;
+    top: 7px;
+}
+.container1
+{
+    height:70px;
+    width: auto;
+    border:2px solid wheat;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-gap: 20px;
+    justify-content:center;
+    align-content: center;
+}
+
+#option
+{
+    height:50px;
+    width:40px;
+    
+}
+
+#description
+{
+    height:40px;
+    width:390px;
+    margin-top: 2px;
+}
+#amount
+{
+    height:35px;
+    width:70px;
+    margin-top: 4px;
+}
+th,td
+{
+   padding:2px 290px;
+   font-size: 25px;
+   font-family: cursive;
+   color:lime;
+}
+#inc 
+{
+   display:inline-grid;
+   grid-template-columns: repeat(3,60px);
+   color:cyan;
+   font-size: 30px;
+   font-family: cursive;
+   align-items: center;
+   grid-column-gap: 120px;
+   grid-row-gap: 1px;
+   position: absolute;
+   left:200px;
+}
+#inc button
+{
+    border-radius: 60%;
+    color:cyan;
+   
+}
+#exp 
+{
+   display:inline-grid;
+   grid-template-columns: repeat(3,60px);
+   color:magenta;
+   font-size: 30px;
+   font-family: cursive;
+   align-items: center;
+   grid-column-gap: 110px;
+   grid-row-gap: 1px;
+   position: absolute;
+   left:880px;
+}   
+#exp button
+{
+    border-radius: 60%;
+    color:magenta;
+    
+}
+
+.container button
+{
+    position:absolute;
+    right:1%;
+    top:3%;
+    height:5%;
+    width:5%;
+}
